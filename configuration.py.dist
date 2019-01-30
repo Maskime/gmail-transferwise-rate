@@ -1,0 +1,11 @@
+from collections import namedtuple
+
+Configuration = namedtuple('Configuration', ['query', 'userId', 'rateFile'])
+
+configuration = {
+    'query' : 'query against gmail',
+    'userId': 'userId (should be me)',
+    'rateFile': 'rate_file.csv'
+}
+
+configuration = Configuration(**values)
