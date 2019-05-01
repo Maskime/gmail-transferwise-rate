@@ -8,4 +8,4 @@ configuration = {
     'rateFile': 'rate_file.csv'
 }
 
-configuration = Configuration(**values)
+configuration = Configuration(**configuration)
